@@ -1,0 +1,38 @@
+/* pseudo-class */
+
+.hello:link {
+  color: orange;
+}
+
+.hello:hover {
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: red;
+}
+
+/* pseudo-class child */
+li:first-child a {
+    color: orange;
+}
+
+li:nth-child(9) a {
+    color: red;
+}
+
+li:nth-child(2n) a {
+    color: green;
+}
+/* bisa pakai even & odd */
+
+/* pseudo-class dengan posisi elemen */
+p:last-of-type {
+    color: red;
+}

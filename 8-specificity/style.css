@@ -1,0 +1,17 @@
+/* ul#sarapan li {
+    color: green;
+}
+
+.favorit {
+    color: red;
+} */
+
+ul#sarapan li {
+    color: green;
+}
+
+ul#sarapan li.favorit {
+    color: red;
+}
+
+/* kode diatas merupakan kode salah karena nilai yang dipanggil kecil, solusinya memanggil selector lebih spesifik */
